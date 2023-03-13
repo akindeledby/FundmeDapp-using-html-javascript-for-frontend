@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fund Me App</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form>
+        <div style="text-align: center; color: white; font-size: 30px">
+          This App allows you fund your wallet.
+        </div>
+        <h2 style="color: white">Hello And Welcome!</h2>
+        <script src="./index.js" type="module"></script>
+        <button id="connectButton" style="font-size: 20px">
+          Connect Wallet
+        </button>
+
+        <!-- Form -->
+        <div>
+          <label for="fund">
+            <p style="font-size: 20px; color: white">
+              Enter the EthAmount you want to transfer and click Fund button
+              below.
+            </p>
+          </label>
+          <input id="ethamount" placeholder="0.1" />
+          <button id="fundButton" style="font-size: 20px">Fund</button> <br />
+          <p style="color: white">Click below to check Wallet Balance</p>
+          <button id="balanceButton" style="font-size: 20px">
+            Wallet Balance
+          </button>
+          <br />
+          <p style="color: white">Click below to withdraw fund</p>
+          <button id="WithdrawButton" style="font-size: 20px">Withdraw</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
